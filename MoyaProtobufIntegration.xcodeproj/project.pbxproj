@@ -7,10 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E4E0B54FB10628A47841647 /* Pods_MoyaProtobufIntegration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C55EF961D83F0C6C5500A2D9 /* Pods_MoyaProtobufIntegration.framework */; };
 		9B37B7252ADE4C4100AF4BE2 /* MoyaProtobufIntegrationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B37B7242ADE4C4100AF4BE2 /* MoyaProtobufIntegrationApp.swift */; };
 		9B37B7272ADE4C4100AF4BE2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B37B7262ADE4C4100AF4BE2 /* ContentView.swift */; };
 		9B37B7292ADE4C4300AF4BE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B37B7282ADE4C4300AF4BE2 /* Assets.xcassets */; };
 		9B37B72C2ADE4C4300AF4BE2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B37B72B2ADE4C4300AF4BE2 /* Preview Assets.xcassets */; };
+		9B37B7362ADE4DF200AF4BE2 /* AppURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B37B7352ADE4DF200AF4BE2 /* AppURL.swift */; };
+		9B37B7382ADE6A4B00AF4BE2 /* BannerAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B37B7372ADE6A4B00AF4BE2 /* BannerAPI.swift */; };
+		9B37B73B2ADE710500AF4BE2 /* StringConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B37B73A2ADE710500AF4BE2 /* StringConstants.swift */; };
+		9B37B73E2ADE73EF00AF4BE2 /* APIServiceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B37B73D2ADE73EF00AF4BE2 /* APIServiceType.swift */; };
+		9B37B7412ADE787200AF4BE2 /* banner.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B37B7402ADE787200AF4BE2 /* banner.pb.swift */; };
+		9B37B7452ADE80B200AF4BE2 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B37B7442ADE80B200AF4BE2 /* NetworkManager.swift */; };
+		9B37B7482ADE83E800AF4BE2 /* BannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B37B7472ADE83E800AF4BE2 /* BannerView.swift */; };
+		9B37B74A2ADE83F400AF4BE2 /* BannerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B37B7492ADE83F400AF4BE2 /* BannerViewModel.swift */; };
+		9B37B74E2ADE8D1100AF4BE2 /* ImageLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B37B74D2ADE8D1100AF4BE2 /* ImageLoadingView.swift */; };
+		9B37B7502ADE8D2900AF4BE2 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B37B74F2ADE8D2900AF4BE2 /* ImageLoader.swift */; };
+		9B37B7522ADEA76300AF4BE2 /* common.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B37B7512ADEA76300AF4BE2 /* common.pb.swift */; };
+		9B37B7542ADEAA7A00AF4BE2 /* NetworkErrorHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B37B7532ADEAA7A00AF4BE2 /* NetworkErrorHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +32,21 @@
 		9B37B7262ADE4C4100AF4BE2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9B37B7282ADE4C4300AF4BE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B37B72B2ADE4C4300AF4BE2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9B37B7352ADE4DF200AF4BE2 /* AppURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppURL.swift; sourceTree = "<group>"; };
+		9B37B7372ADE6A4B00AF4BE2 /* BannerAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerAPI.swift; sourceTree = "<group>"; };
+		9B37B73A2ADE710500AF4BE2 /* StringConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringConstants.swift; sourceTree = "<group>"; };
+		9B37B73D2ADE73EF00AF4BE2 /* APIServiceType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIServiceType.swift; sourceTree = "<group>"; };
+		9B37B7402ADE787200AF4BE2 /* banner.pb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = banner.pb.swift; path = MoyaProtobufIntegration/Networking/ProtoModels/banner.pb.swift; sourceTree = SOURCE_ROOT; };
+		9B37B7442ADE80B200AF4BE2 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		9B37B7472ADE83E800AF4BE2 /* BannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerView.swift; sourceTree = "<group>"; };
+		9B37B7492ADE83F400AF4BE2 /* BannerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerViewModel.swift; sourceTree = "<group>"; };
+		9B37B74D2ADE8D1100AF4BE2 /* ImageLoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageLoadingView.swift; sourceTree = "<group>"; };
+		9B37B74F2ADE8D2900AF4BE2 /* ImageLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		9B37B7512ADEA76300AF4BE2 /* common.pb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = common.pb.swift; sourceTree = "<group>"; };
+		9B37B7532ADEAA7A00AF4BE2 /* NetworkErrorHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkErrorHelper.swift; sourceTree = "<group>"; };
+		A7E5F2783CE68012D47792DF /* Pods-MoyaProtobufIntegration.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoyaProtobufIntegration.release.xcconfig"; path = "Target Support Files/Pods-MoyaProtobufIntegration/Pods-MoyaProtobufIntegration.release.xcconfig"; sourceTree = "<group>"; };
+		BDBB0632866F538743906AED /* Pods-MoyaProtobufIntegration.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoyaProtobufIntegration.debug.xcconfig"; path = "Target Support Files/Pods-MoyaProtobufIntegration/Pods-MoyaProtobufIntegration.debug.xcconfig"; sourceTree = "<group>"; };
+		C55EF961D83F0C6C5500A2D9 /* Pods_MoyaProtobufIntegration.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoyaProtobufIntegration.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +54,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E4E0B54FB10628A47841647 /* Pods_MoyaProtobufIntegration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		265975B94B463BCE150DA5B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C55EF961D83F0C6C5500A2D9 /* Pods_MoyaProtobufIntegration.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		427EC9EE5BBCD0286619DB35 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BDBB0632866F538743906AED /* Pods-MoyaProtobufIntegration.debug.xcconfig */,
+				A7E5F2783CE68012D47792DF /* Pods-MoyaProtobufIntegration.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		9B37B7182ADE4C4100AF4BE2 = {
 			isa = PBXGroup;
 			children = (
 				9B37B7232ADE4C4100AF4BE2 /* MoyaProtobufIntegration */,
 				9B37B7222ADE4C4100AF4BE2 /* Products */,
+				427EC9EE5BBCD0286619DB35 /* Pods */,
+				265975B94B463BCE150DA5B9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,6 +99,10 @@
 		9B37B7232ADE4C4100AF4BE2 /* MoyaProtobufIntegration */ = {
 			isa = PBXGroup;
 			children = (
+				9B37B74B2ADE8CE000AF4BE2 /* Helpers */,
+				9B37B7422ADE7A2700AF4BE2 /* Modules */,
+				9B37B7342ADE4DC300AF4BE2 /* Networking */,
+				9B37B7392ADE70EA00AF4BE2 /* Util */,
 				9B37B7242ADE4C4100AF4BE2 /* MoyaProtobufIntegrationApp.swift */,
 				9B37B7262ADE4C4100AF4BE2 /* ContentView.swift */,
 				9B37B7282ADE4C4300AF4BE2 /* Assets.xcassets */,
@@ -67,6 +119,102 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		9B37B7322ADE4D8600AF4BE2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9B37B7472ADE83E800AF4BE2 /* BannerView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9B37B7332ADE4DB700AF4BE2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9B37B7342ADE4DC300AF4BE2 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				9B37B73C2ADE73CA00AF4BE2 /* APIModules */,
+				9B37B73F2ADE765E00AF4BE2 /* ProtoModels */,
+				9B37B7352ADE4DF200AF4BE2 /* AppURL.swift */,
+				9B37B73D2ADE73EF00AF4BE2 /* APIServiceType.swift */,
+				9B37B7442ADE80B200AF4BE2 /* NetworkManager.swift */,
+				9B37B7532ADEAA7A00AF4BE2 /* NetworkErrorHelper.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		9B37B7392ADE70EA00AF4BE2 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				9B37B73A2ADE710500AF4BE2 /* StringConstants.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		9B37B73C2ADE73CA00AF4BE2 /* APIModules */ = {
+			isa = PBXGroup;
+			children = (
+				9B37B7372ADE6A4B00AF4BE2 /* BannerAPI.swift */,
+			);
+			path = APIModules;
+			sourceTree = "<group>";
+		};
+		9B37B73F2ADE765E00AF4BE2 /* ProtoModels */ = {
+			isa = PBXGroup;
+			children = (
+				9B37B7512ADEA76300AF4BE2 /* common.pb.swift */,
+				9B37B7402ADE787200AF4BE2 /* banner.pb.swift */,
+			);
+			path = ProtoModels;
+			sourceTree = "<group>";
+		};
+		9B37B7422ADE7A2700AF4BE2 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				9B37B7432ADE7A4300AF4BE2 /* BannerView */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		9B37B7432ADE7A4300AF4BE2 /* BannerView */ = {
+			isa = PBXGroup;
+			children = (
+				9B37B7462ADE83D600AF4BE2 /* ViewModel */,
+				9B37B7332ADE4DB700AF4BE2 /* Model */,
+				9B37B7322ADE4D8600AF4BE2 /* View */,
+			);
+			path = BannerView;
+			sourceTree = "<group>";
+		};
+		9B37B7462ADE83D600AF4BE2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9B37B7492ADE83F400AF4BE2 /* BannerViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		9B37B74B2ADE8CE000AF4BE2 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				9B37B74C2ADE8CF100AF4BE2 /* ImageLoader */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		9B37B74C2ADE8CF100AF4BE2 /* ImageLoader */ = {
+			isa = PBXGroup;
+			children = (
+				9B37B74D2ADE8D1100AF4BE2 /* ImageLoadingView.swift */,
+				9B37B74F2ADE8D2900AF4BE2 /* ImageLoader.swift */,
+			);
+			path = ImageLoader;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +222,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9B37B72F2ADE4C4300AF4BE2 /* Build configuration list for PBXNativeTarget "MoyaProtobufIntegration" */;
 			buildPhases = (
+				66D548CE99BBAF96C4C8CA30 /* [CP] Check Pods Manifest.lock */,
 				9B37B71D2ADE4C4100AF4BE2 /* Sources */,
 				9B37B71E2ADE4C4100AF4BE2 /* Frameworks */,
 				9B37B71F2ADE4C4100AF4BE2 /* Resources */,
+				B0E1D04E53546DC4E1285FB0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,6 +282,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		66D548CE99BBAF96C4C8CA30 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MoyaProtobufIntegration-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0E1D04E53546DC4E1285FB0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MoyaProtobufIntegration/Pods-MoyaProtobufIntegration-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MoyaProtobufIntegration/Pods-MoyaProtobufIntegration-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MoyaProtobufIntegration/Pods-MoyaProtobufIntegration-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9B37B71D2ADE4C4100AF4BE2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -139,6 +331,18 @@
 			files = (
 				9B37B7272ADE4C4100AF4BE2 /* ContentView.swift in Sources */,
 				9B37B7252ADE4C4100AF4BE2 /* MoyaProtobufIntegrationApp.swift in Sources */,
+				9B37B7502ADE8D2900AF4BE2 /* ImageLoader.swift in Sources */,
+				9B37B74A2ADE83F400AF4BE2 /* BannerViewModel.swift in Sources */,
+				9B37B7412ADE787200AF4BE2 /* banner.pb.swift in Sources */,
+				9B37B7542ADEAA7A00AF4BE2 /* NetworkErrorHelper.swift in Sources */,
+				9B37B7522ADEA76300AF4BE2 /* common.pb.swift in Sources */,
+				9B37B73E2ADE73EF00AF4BE2 /* APIServiceType.swift in Sources */,
+				9B37B7452ADE80B200AF4BE2 /* NetworkManager.swift in Sources */,
+				9B37B74E2ADE8D1100AF4BE2 /* ImageLoadingView.swift in Sources */,
+				9B37B7482ADE83E800AF4BE2 /* BannerView.swift in Sources */,
+				9B37B7382ADE6A4B00AF4BE2 /* BannerAPI.swift in Sources */,
+				9B37B73B2ADE710500AF4BE2 /* StringConstants.swift in Sources */,
+				9B37B7362ADE4DF200AF4BE2 /* AppURL.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +465,7 @@
 		};
 		9B37B7302ADE4C4300AF4BE2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDBB0632866F538743906AED /* Pods-MoyaProtobufIntegration.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -289,6 +494,7 @@
 		};
 		9B37B7312ADE4C4300AF4BE2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7E5F2783CE68012D47792DF /* Pods-MoyaProtobufIntegration.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

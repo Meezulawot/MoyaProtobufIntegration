@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct MoyaProtobufIntegrationApp: App {
+    @StateObject var viewmodel = BannerViewModel()
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            BannerView()
+                .environmentObject(viewmodel)
         }
     }
 }

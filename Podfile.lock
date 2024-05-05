@@ -1,0 +1,26 @@
+PODS:
+  - Alamofire (5.8.0)
+  - Moya (15.0.0):
+    - Moya/Core (= 15.0.0)
+  - Moya/Core (15.0.0):
+    - Alamofire (~> 5.0)
+  - SwiftProtobuf (1.24.0)
+
+DEPENDENCIES:
+  - Moya
+  - SwiftProtobuf
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Moya
+    - SwiftProtobuf
+
+SPEC CHECKSUMS:
+  Alamofire: 0e92e751b3e9e66d7982db43919d01f313b8eb91
+  Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
+  SwiftProtobuf: bcfd2bc231cf9ae552cdc7c4e877bd3b41fe57b1
+
+PODFILE CHECKSUM: 7af3de5ec6642adb254c1c2ad99d17e9e47a96f6
+
+COCOAPODS: 1.11.3
